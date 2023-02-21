@@ -1,0 +1,110 @@
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+  background-image: url('https://img.hellofresh.com/c_fill,f_auto,fl_lossy,h_820,q_auto:eco,w_1534/hellofresh_website/us/cms/homepage/bannersUS/Home_Page_-_Top_Banner__-_Mobile_v3.jpg');
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+  height: 75vh;
+}
+
+.banner-btn {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.img-center {
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.col {
+  flex: 1;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+.check {
+  text-align: left;
+}
+.check::before {
+  content: '✔';
+  margin-right: 10px;
+}
+
+h2 {
+  margin: 2rem;
+}
+
+ul {
+  padding: 0;
+}
+
+/* Why Section */
+.bold {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.why-btn {
+  padding: 1em 2em;
+  margin: 1rem;
+}
+/* Carousel */
+.carousel-img {
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+}
+/* break */
+
+.break {
+  background-image: url('https://img.hellofresh.com/c_fill,f_auto,fl_lossy,h_820,q_auto:eco,w_1534/hellofresh_website/us/cms/homepage/bannersUS/Home_Page_-_Top_Banner__-_Mobile_v3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.break-btn {
+  /* default is set to stretch */
+  align-self: center;
+}
+
+/* footer */
+.footer-tag {
+  margin: 1rem;
+}
+
+.app-badge {
+  max-width: 150px;
+  margin-top: .5rem;
+}
+
+/* flex image property is default to stretch */
+.logo {
+  align-self: center;
+}
