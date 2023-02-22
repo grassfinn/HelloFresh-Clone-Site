@@ -5,7 +5,7 @@ export default function Nav() {
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <a className="navbar-brand d-flex" href="#">
-          <img src="./public/favicon.ico" className="logo" alt="" />
+          <img src="./favicon.ico" className="logo" alt="" />
           <span>BonjourVegi</span>
         </a>
 
