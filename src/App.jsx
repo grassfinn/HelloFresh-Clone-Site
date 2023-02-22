@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Home from './assets/components/Home';
 import './index.css'
 import './reset.css'
